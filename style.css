@@ -1,0 +1,81 @@
+body {
+  font-family: "Arial";
+  color: #272838;
+  background-color: #f9f8f8;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #8cb63e;
+  padding: 20px;
+}
+
+div.outer {
+  display: flex;
+  flex-direction: row;
+}
+
+div.left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  border: dashed 1pt black;
+  border-radius: 10px;
+}
+
+div.right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#input {
+  flex: 1;
+  height: 200px;
+  border-radius: 10px;
+  font-size: 14pt;
+  font-family: "Arial";
+  padding: 5px;
+}
+
+#output {
+  flex: 1;
+  border-radius: 10px;
+  border: solid 1pt #272838;
+  padding: 20px;
+  text-align: left;
+  font-size: 22pt;
+  line-height: 1.8;
+  color: #000000;
+  background-color: #99cd4d;
+}
+
+button.generate {
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: solid 1pt #272838;
+  font-family: "Arial";
+  font-weight: bold;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #826aed;
+}
+
+button.generate:active {
+  background: #7d67e9;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+img.icon {
+  width: 40px;
+}
